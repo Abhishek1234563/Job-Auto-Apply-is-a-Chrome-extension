@@ -1,0 +1,176 @@
+[
+    {
+        "mnemonic": "ACI",
+        "operand": "Data",
+        "opcode": "CE",
+        "bytes": 2
+    },
+    {
+        "mnemonic": "ADC",
+        "operand": "A",
+        "opcode": "8F",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADC",
+        "operand": "B",
+        "opcode": "88",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADC",
+        "operand": "C",
+        "opcode": "89",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADC",
+        "operand": "D",
+        "opcode": "8A",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADC",
+        "operand": "E",
+        "opcode": "8B",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADC",
+        "operand": "H",
+        "opcode": "8C",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADC",
+        "operand": "L",
+        "opcode": "8D",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADC",
+        "operand": "M",
+        "opcode": "8E",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADD",
+        "operand": "A",
+        "opcode": "87",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADD",
+        "operand": "B",
+        "opcode": "80",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADD",
+        "operand": "C",
+        "opcode": "81",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADD",
+        "operand": "D",
+        "opcode": "82",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADD",
+        "operand": "E",
+        "opcode": "83",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADD",
+        "operand": "H",
+        "opcode": "84",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADD",
+        "operand": "L",
+        "opcode": "85",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADD",
+        "operand": "M",
+        "opcode": "86",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ADI",
+        "operand": "Data",
+        "opcode": "C6",
+        "bytes": 2
+    },
+    {
+        "mnemonic": "ANA",
+        "operand": "A",
+        "opcode": "A7",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ANA",
+        "operand": "B",
+        "opcode": "A0",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ANA",
+        "operand": "C",
+        "opcode": "A1",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ANA",
+        "operand": "D",
+        "opcode": "A2",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ANA",
+        "operand": "E",
+        "opcode": "A3",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ANA",
+        "operand": "H",
+        "opcode": "A4",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ANA",
+        "operand": "L",
+        "opcode": "A5",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ANA",
+        "operand": "M",
+        "opcode": "A6",
+        "bytes": 1
+    },
+    {
+        "mnemonic": "ANI",
+        "operand": "Data",
+        "opcode": "E6",
+        "bytes": 2
+    },
+    {
+        "mnemonic": "CALL",
+        "operand": "Label",
+        "opcode": "CD",
+        "bytes": 3
+    },
+    {
+        "mnemonic": "CC",
+        "operand": "Label",
+        "opcode": "DC",
+        "bytes": 3
+    }
+]
