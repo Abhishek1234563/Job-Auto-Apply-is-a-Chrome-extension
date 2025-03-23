@@ -35,5 +35,19 @@
 - **Background and Content Scripts** to perform scraping and auto-filling
 - **Chrome Storage** for data persistence
 
-## File Structure
+## Usage
+Authentication:
+Use the LoginPage and SignupPage to create an account or log in.
+
+Dashboard:
+Once logged in, the HomePage displays options to view job listings and optimize your resume.
+
+Job Listings:
+The JobListPage displays job postings scraped from supported sites. Click “Refresh Job Listings” to update the list.
+
+AI Resume Optimization:
+The OptimizeResume page allows you to paste your resume and a job description to receive AI-powered suggestions for resume optimization.
+
+One-Click Applications:
+When on a supported job application page, the content-autofill script auto-fills application forms with your saved data.
 
