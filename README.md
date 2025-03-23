@@ -1,30 +1,39 @@
-Job Auto-Apply Chrome Extension
+# Job Auto-Apply Chrome Extension
 
+## Overview
 
-Job Auto-Apply is a Chrome extension designed to simplify the job application process for job seekers. The extension automates tedious tasks by:
+**Job Auto-Apply** is a Chrome extension designed to simplify the job application process for job seekers. The extension automates tedious tasks by:
 
-Aggregating Job Listings:
-Scraping job postings from multiple platforms (e.g., LinkedIn Jobs, Indeed) and displaying them in one place.
+- Aggregating job listings from multiple platforms (e.g., LinkedIn, Indeed) using content scripts.
+- Optimizing resumes and cover letters through AI-powered analysis and matching (via the OpenAI API).
+- Enabling one-click applications by auto-filling application forms with stored user data.
 
-AI-Powered Resume Matching:
-Analyzing job descriptions to identify key skills and keywords, then automatically updating user resumes and cover letters to better match job requirements using AI (via an external API such as OpenAI).
+## Features
 
-One-Click Applications:
-Auto-filling job application forms on supported portals using stored user profiles, and tracking application progress and interview schedules.
+- **Job Listing Aggregation:**  
+  - Scrapes job postings in real time from supported job sites using content scripts.
+  - Displays and filters listings based on user-defined criteria (e.g., location, role).
 
-Features
-User Authentication:
-Sign up, log in, and view user profiles using Firebase Authentication.
+- **AI-Powered Resume Matching:**  
+  - Analyzes job descriptions to extract keywords and key skills.
+  - Automatically updates user resumes and cover letters to match job requirements.
 
-Job Listing Aggregation:
+- **One-Click Applications:**  
+  - Uses Chrome Extension APIs to auto-fill application forms with user profile data.
+  - (Optional) Tracks application progress and interview schedules.
 
-Content Script (content-scraper.js): Automatically scrapes job listings from pages that match specified URL patterns.
-JobListPage: Displays scraped job listings and allows refreshing of data.
-AI-Powered Resume Matching:
+- **User Authentication:**  
+  - Secure login and signup using Firebase.
+  - Profile management via a dedicated profile page.
 
-OptimizeResume Page: Users can input their resume and a job description. The background script sends a request to an AI API to optimize the resume.
-Background Script (background.js): Handles AI calls to optimize resume content.
-One-Click Applications:
+## Tech Stack
 
-Content Script (content-autofill.js): Automatically fills application forms on supported job portals using stored user data.
-(Optional) Application Tracker: Can be implemented to track application status and interview schedules.
+- **Chrome Extension (Manifest V3)**
+- **React** (via Create React App) for the extension’s UI (popup and options)
+- **Firebase** for user authentication
+- **OpenAI API** for AI-powered resume matching
+- **Background and Content Scripts** to perform scraping and auto-filling
+- **Chrome Storage** for data persistence
+
+## File Structure
+
